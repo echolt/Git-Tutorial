@@ -11,14 +11,14 @@ Any method of tracking and controlling changes to a set of things, almost always
 
 The above uses the file system to store the content, your brain (or perhaps a file describing versions) as the index (draft is older than final, final is older than final_2) and the current state as the last commit.
 
-Enter Git!
+## What is Git?
 Created in 2005 by Linus Torvalds due to the withdrawal of free usage of BitKeeper (this is why we like OSS), git incorporated lessons from previous open source VCSes such as CVS and Subversion, with a specific focus on performance. The fact that it is decentralized means that in principle any copy of a repository can be used as the remote; in practice, developers almost always use a centrally hosted copy of a repository for collaboration purposes. Far and away, git is the dominant free VCS.
 
-The file system is still used for representing the current state of the repository, but now there is an index of every file and all the changes made to them. When you make a change you want to keep, you _commit_ it to the staging area, then (for the sake of backing your work up) you push that to a remote (another git repository, typically one you treat as the single source of truth). 
+The file system is still used for representing the current state of the repository, but now there is an index of every file and all the changes made to them. When you make a change you want to keep, you _commit_ it to the staging area, then (for the sake of backing your work up) you push that to a remote (another git repository, typically one you treat as the single source of truth).
 
 ### Terminology
-* repository - a file tree, version history and a pointer to the current working copy.
-* clone, noun - download a repository
+* repository, noun - a file tree, version history and a pointer to the current working copy.
+* clone, verb - download a repository
 * commit, noun - a set of changes to files in a repository
 * remote, noun - a copy of a repository on a different machine
 * commit, verb - add a set of changes to history
@@ -33,10 +33,10 @@ e.g. a blog or thesis. Your workflow has hardly changed - you make a change, com
 
 #### Working together with automatic merges
 e.g. a newspaper. Each person edits separate files at any given time (you make an edit, ask for changes from a copywriter, repeat).
-Option 1: forks and pull requests
+##### Option 1: forks and pull requests
 You fork the common project, make a change to a file and push to it, as does your colleague (with their own fork, and a different file).
 At this point, the common project doesn't have either of your work, so you create a pull request for each of them, and because you worked on separate files, they both can be automatically merged.
-Option 2: branch and merge
+##### Option 2: branch and merge
 You each clone the repository, make your own branch (e.g. sally, fred), make a bunch of commits to separate files. You merge each of them into the master branch (no conflicts, so its automatic).
 
 #### Working together with manual merges
