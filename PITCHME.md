@@ -65,7 +65,9 @@ By show of hands, how many people have used an Android phone, or any of the fede
 * Decentralized
 * _fast_
 
----?image=https://imgs.xkcd.com/comics/git.png
+---
+
+![XKCD](https://imgs.xkcd.com/comics/git.png)
 
 ---
 # How to avoid problems with Git?
