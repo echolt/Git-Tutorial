@@ -65,9 +65,7 @@ By show of hands, how many people have used an Android phone, or any of the fede
 * Decentralized
 * _fast_
 
----
-
-![xkcd](https://imgs.xkcd.com/comics/git.png)
+---?image=https://imgs.xkcd.com/comics/git.png
 
 ---
 # How to avoid problems with Git?
@@ -85,11 +83,9 @@ By show of hands, how many people have used an Android phone, or any of the fede
 * PUT this somewhere
 * DELETE this
 * UPDATE that
+Try it: [https://data.gov.au/api/3/]
 
 Tool: [Postman](https://getpostman.com)
 
 Note:
 A simple way of interacting with a program,service or library. Very much analogous to the external phone numbers of a company - the internal workings of the company require knowledge of it, you might even need to know the desk number of a person to talk to them. Support lines and public relations contacts need to be accessible to everyone, so a company will publish a small number of well-described numbers. Here's an example - data.gov.au
-
----
-
