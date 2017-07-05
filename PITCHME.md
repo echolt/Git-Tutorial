@@ -1,5 +1,7 @@
 # Collaborating with Developers
 
+Prerequisite: [Git](https://git-scm.com/mac)
+
 ---
 
 # Agenda
@@ -15,6 +17,8 @@
 
 Note:
 Before I begin, how many of you are developers, or have done a bit of coding? Good, not too many.
+
+---
 
 ---
 
@@ -49,3 +53,28 @@ By show of hands, how many people have used an Android phone, or any of the fede
 * Stored in data portals, like CKAN
 
 ---
+
+# What is version control?
+
+* Content - a file tree filled with documents
+* An index - a recording of all the versions of the content (this can be your brain)
+* A pointer to the current version
+
+Note:
+
+---
+
+# What is an API?
+
+* A set of rules that define how a  program or service talks to the outside world
+* GET me the phone number for X
+* Do something with this - POST
+* PUT this somewhere
+* DELETE this
+* UPDATE that
+
+Note:
+A simple way of interacting with a program,service or library. Very much analogous to the external phone numbers of a company - the internal workings of the company require knowledge of it, you might even need to know the desk number of a person to talk to them. Support lines and public relations contacts need to be accessible to everyone, so a company will publish a small number of well-described numbers. Here's an example - data.gov.au
+
+---
+
