@@ -1,6 +1,6 @@
 # Collaborating with Developers
 
-Prerequisite: [Git](https://git-scm.com/mac)
+Prerequisite: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 ---
 
