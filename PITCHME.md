@@ -13,12 +13,9 @@ Prerequisite: [Git](https://git-scm.com/mac)
     * Trello
     * CKAN
     * Postman
-* Democratized Data
 
 Note:
 Before I begin, how many of you are developers, or have done a bit of coding? Good, not too many.
-
----
 
 ---
 
@@ -60,7 +57,23 @@ By show of hands, how many people have used an Android phone, or any of the fede
 * An index - a recording of all the versions of the content (this can be your brain)
 * A pointer to the current version
 
-Note:
+---
+
+# What's Git?
+* Version Control System
+* Created in 2005, for Linux kernel developers
+* Decentralized
+* _fast_
+
+---
+
+![xkcd](https://imgs.xkcd.com/comics/git.png)
+
+---
+# How to avoid problems with Git?
+* work on separate files
+* commit frequently
+* communicate
 
 ---
 
@@ -72,6 +85,8 @@ Note:
 * PUT this somewhere
 * DELETE this
 * UPDATE that
+
+Tool: [Postman](https://getpostman.com)
 
 Note:
 A simple way of interacting with a program,service or library. Very much analogous to the external phone numbers of a company - the internal workings of the company require knowledge of it, you might even need to know the desk number of a person to talk to them. Support lines and public relations contacts need to be accessible to everyone, so a company will publish a small number of well-described numbers. Here's an example - data.gov.au
